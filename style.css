@@ -10,6 +10,12 @@ body {
 a {
     color: #000000;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.25s;
+}
+
+a:hover {
+    border-bottom: 2px solid;
 }
 
 header,
@@ -80,3 +86,36 @@ footer a {
 .social-links a {
     margin-right: 22px;
 }
+
+@media (max-width: 720px) {
+    body {
+        font-size: 12px;
+        padding: 0 30px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .logo {
+        margin: 25px 0;
+        max-width: 50%;
+    }
+    
+    section {
+        padding: 0 0 45px 0;
+    }
+
+    hr {
+        margin: 25px 0;
+    }
+
+    footer {
+        padding: 24px 0 24px 24px;
+    }
+}
+
+
+
+
+

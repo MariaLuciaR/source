@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     padding-left: 100px;
     background-color: #000000;
-    color: #EEEEEE;
+    color: #eee;
 }
 
 a {
@@ -26,13 +26,25 @@ h1 {
 }
 
 .product-link {
-    background-color: #EEEEEE;
+    background-color: #eee;
     padding: 14px 0 14px 27px;
 }
 
-/* UTILITIES */
+/* Footer */
 
-.tr {
-    box-sizing: border-box;
-    border: .25pc dashed red;
+footer {
+    padding: 34px 0 34px 47px;
+    background-color: #1a1a1a;
+}
+
+footer a {
+    color: #6a6a6a;
+}
+
+.social-links {
+    margin-top: 27px;
+}
+
+.social-links a {
+    margin-right: 22px;
 }

@@ -7,13 +7,27 @@ body {
     color: #EEEEEE;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding-bottom: 90px;
+}
+
 p {
-    margin: 0 0 90px 0;
+    margin: 0;
     max-width: 357px;
 }
 
 h1 {
     margin: 150px 0;
+}
+
+.product-link {
+    background-color: #EEEEEE;
+    padding: 14px 0 14px 27px;
 }
 
 /* UTILITIES */

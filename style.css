@@ -1,0 +1,24 @@
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 100px;
+    background-color: #000000;
+    color: #EEEEEE;
+}
+
+p {
+    margin: 0 0 90px 0;
+    max-width: 357px;
+}
+
+h1 {
+    margin: 150px 0;
+}
+
+/* UTILITIES */
+
+.tr {
+    box-sizing: border-box;
+    border: .25pc dashed red;
+}
